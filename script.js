@@ -1,5 +1,5 @@
 'use strict';
-
+//All Queries
 let score0El = document.querySelector('#score--0');
 let score1El = document.querySelector('#score--1');
 let diceEl = document.querySelector('.dice');
@@ -74,7 +74,7 @@ function hold(){
     //3. Switching to the next Player
         switchPlayer();
 }
-
+//Reset Game
 btnnew.addEventListener('click',init);
 function init() {
     //Initial Conditions or looks
